@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap');
+  </style>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="../css/style.css">
+  <title>秋といえば…食</title>
+</head>
+
+<body>
+
+  <!-- ローディング画面 -->
+  <div id="loading">
+    <img class="spinner" src="../img\lord.gif" alt="" />
+  </div>
+  <!--==============================================================================================
+サイドバー用チェックボックス
+===============================================================================================-->
+
+  <!--toggle section-->
+  <input type="checkbox" id="check">
+  <label for="check">
+    <span class="material-icons" id="menu">menu</span>
+    <span class="material-icons" id="cancel">close</span>
+  </label>
+
+  <!--==============================================================================================
+サイドバー
+===============================================================================================-->
+
+  <!--sidebar section-->
+  <div class="sidebar">
+    <ul>
+      <li>
+        <a href="event.html">Event</a>
+      </li>
+      <li>
+        <a href="foods.html" id="rcc">Foods</a>
+      </li>
+      <li>
+        <a href="about.html">About</a>
+      </li>
+    </ul>
+  </div>
+  <!--==============================================================================================
+ヘッダー
+===============================================================================================-->
+
+  <header class="flex_item">
+    <a href="../index.html">
+      <div class="company_logo flex_item ">
+        <img src="../img/logo.png" alt="任意のロゴ">
+        <h1>秋といえば</h1>
+      </div>
+    </a>
+    <nav class="nav">
+      <ul class="list">
+        <li class="list__item">
+          <div class="link link-hover" tabindex="0">
+            <a href="event.html"><span>Event</span></a>
+            <div class="dropDown">
+              <ul class="dropDown__list">
+                <li class="dropDown__item">
+                  <a href="event.html#undoukai" class="dropDown__link">運動会</a>
+                </li>
+                <li class="dropDown__item">
+                  <a href="event.html#otukimi" class="dropDown__link">お月見</a>
+                </li>
+                <li class="dropDown__item">
+                  <a href="event.html#halloween" class="dropDown__link">ハロウィン</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <li class="list__item">
+          <div class="link link-hover" tabindex="0">
+            <a href="foods.html"><span>Foods</span></a>
+            <div class="dropDown">
+              <ul class="dropDown__list">
+                <li class="dropDown__item">
+                  <a href="foods.html#seafood" class="dropDown__link">海の幸</a>
+                </li>
+                <li class="dropDown__item">
+                  <a href="foods.html#mtfood" class="dropDown__link">山の幸</a>
+                </li>
+                <li class="dropDown__item">
+                  <a href="foods.html#sweets" class="dropDown__link">スイーツ</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <li class="list__item">
+          <div class="link link-hover" tabindex="0">
+            <a href="about.html"><span>About</span></a>
+            <div class="dropDown">
+              <ul class="dropDown__list">
+                <li class="dropDown__item">
+                  <a href="about.html#profile_company" class="dropDown__link">会社概要</a>
+                </li>
+                <li class="dropDown__item">
+                  <a href="about.html#contact" class="dropDown__link">お問い合わせ</a>
+                </li>
+                <li class="dropDown__item">
+                  <a href="about.html#privacy_policy" class="dropDown__link">プライバシーポリシー</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!--==============================================================================================
+メイン
+===============================================================================================-->
+
+  <main>
+    <section id="seafood">
+      <div class="content">
+        <div class="changeImg">
+          <img src="../img\foods01.jpg" alt="任意の画像">
+          <img src="../img/bg.jpg" alt="任意の画像">
+        </div>
+        <div class="content_text left">
+          <details>
+            <summary>
+              <h2>海の幸</h2>
+            </summary>
+            <p>
+              ここに本文が入ります。ここに本文が入ります。ここに本文が入ります。
+              ここに本文が入ります。ここに本文が入ります。ここに本文が入ります。
+              ここに本文が入ります。ここに本文が入ります。ここに本文が入ります。
+              ここに本文が入ります。ここに本文が入ります。ここに本文が入ります。
+            </p>
+          </details>
+        </div>
+      </div>
+      <div class="bg_strip1"></div>
+    </section>
+
+    <section id="mtfood">
+      <div class="content">
+        <div class="changeImg">
+          <img src="../img\foods02.jpg" alt="任意の画像">
+          <img src="../img/bg.jpg" alt="任意の画像">
+        </div>
+        <div class="content_text">
+          <details>
+            <summary>
+              <h2>山の幸</h2>
+            </summary>
+            <p>
+              ここに本文が入ります。ここに本文が入ります。ここに本文が入ります。
+              ここに本文が入ります。ここに本文が入ります。ここに本文が入ります。
+              ここに本文が入ります。ここに本文が入ります。ここに本文が入ります。
+              ここに本文が入ります。ここに本文が入ります。ここに本文が入ります。
+            </p>
+          </details>
+        </div>
+      </div>
+      <div class="bg_strip2"></div>
+    </section>
+
+    <section id="sweets">
+      <div class="content">
+        <div class="changeImg">
+          <img src="../img\foods03.jpg" alt="任意の画像">
+          <img src="../img/bg.jpg" alt="任意の画像">
+
+        </div>
+        <div class="content_text left">
+          <details>
+            <summary>
+              <h2>スイーツ</h2>
+            </summary>
+            <p>
+              ここに本文が入ります。ここに本文が入ります。ここに本文が入ります。
+              ここに本文が入ります。ここに本文が入ります。ここに本文が入ります。
+              ここに本文が入ります。ここに本文が入ります。ここに本文が入ります。
+              ここに本文が入ります。ここに本文が入ります。ここに本文が入ります。
+            </p>
+          </details>
+        </div>
+      </div>
+      <div class="bg_strip3"></div>
+    </section>
+    <div>
+      <div>
+        <p id="colorText1">どこかの色が変わるよ！</p>
+        <input type="color" id="colorPicker1">
+      </div>
+      <div>
+        <p id="colorText2">どこかの色が変わるよ！</p>
+        <input type="color" id="colorPicker2">
+      </div>
+    </div>
+  </main>
+  <!--==============================================================================================
+フッター
+===============================================================================================-->
+
+  <footer>
+    <div class="pagetop">
+      <a href="event.html"><span class="material-symbols-outlined">
+          expand_less
+        </span></a>
+    </div>
+    <div class="flex_item">
+      <a href="../index.html">
+        <div class="company_logo flex_item ">
+          <img src="../img/logo.png" alt="任意のロゴ">
+          <h1>秋といえば</h1>
+        </div>
+      </a>
+      <div class="footer_nav">
+        <div>
+          <a href="event.html">
+            <h4>Event</h4>
+          </a>
+          <ul>
+            <li><a href="event.html">運動会</a></li>
+            <li><a href="event.html">お月見</a></li>
+            <li><a href="event.html#halloween">ハロウィン</a></li>
+          </ul>
+        </div>
+        <div>
+          <a href="foods.html">
+            <h4>Foods</h4>
+          </a>
+          <ul>
+            <li><a href="foods.html#high_jump">海の幸</a></li>
+            <li><a href="foods.html#high_jump">山の幸</a></li>
+            <li><a href="foods.html#high_jump">スイーツ</a></li>
+          </ul>
+        </div>
+        <div>
+          <a href="about.html">
+            <h4>About</h4>
+          </a>
+          <ul>
+            <li><a href="about.html#high_jump">会社概要</a></li>
+            <li><a href="about.html#high_jump">お問い合わせ</a></li>
+            <li><a href="about.html#high_jump">プライバシーポリシー</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Follow us</h4>
+          <li><a href="#">
+              <img src="../img\insta_logo.png" alt="インスタのリンク付きロゴ" width="28">
+            </a></li>
+          <li><a href="#">
+              <img src="../img\line_logo.png" alt="ラインのリンク付きロゴ" width="28">
+            </a></li>
+          <li><a href="#">
+              <img src="../img\yt_logo.png" alt="ユーチューブのリンク付きロゴ" width="30">
+            </a></li>
+        </div>
+      </div>
+    </div>
+    <small>© 2023 松本ポートフォリオ Inc. All Rights Reserved.</small>
+  </footer>
+  <script src="../js/main.js"></script>
+</body>
+
+</html>
